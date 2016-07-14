@@ -11,6 +11,7 @@ This project is an OSHW garage door keychain remote and receiver. This project i
  * No replay attacks
  * Secure encryption during pairing
 3. Decent range
+ * About 25 meters
 
 ## Directory Structure
 * hardware/
