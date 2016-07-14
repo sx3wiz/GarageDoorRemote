@@ -2,7 +2,7 @@
 
 This project is an OSHW garage door keychain remote and receiver. This project is not garage door opener brand specific. It takes advantage of the fact that almost all garage dooor openers have a NO contact input to trigger a opening/closing cycle.
 
-Project Goals
+## Project Goals
 
 1. Small remote form factor
  * Keychain sized
