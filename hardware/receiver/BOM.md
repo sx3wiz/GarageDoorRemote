@@ -4,7 +4,7 @@
 
 Componet Refs  | Type            | Value       | Package  | Qty | Digikey Part #
 ---------------|-----------------|-------------|----------|-----|---------------
-U1             | microcontroller | n/a         | 28-VQFN  | 1   | ATMEGA328P-MMH-ND
+U1             | microcontroller | n/a         | 32-TQFP  | 1   | ATMEGA328P-AU-ND
 U2             | transceiver     | 433mhz      | 16-smd   | 1   | 1568-1391-ND
 U3             | linear regulator| 3.3v/250ma  | TO-92    | 1   | MCP1702-3302E/TO-ND
 R1, R2         | resistor        | 10k         | 0603     | 2   | 311-10.0KLRCT-ND
