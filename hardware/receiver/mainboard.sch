@@ -6190,9 +6190,9 @@ Spark Fun Electronics SKU : COM-00107</description>
 <label x="101.6" y="-2.54" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="9"/>
-<wire x1="127" y1="45.72" x2="127" y2="22.86" width="0.1524" layer="91"/>
-<label x="127" y="25.4" size="1.778" layer="95" rot="R90"/>
+<pinref part="J5" gate="G$1" pin="8"/>
+<wire x1="124.46" y1="45.72" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
+<label x="124.46" y="25.4" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -6212,9 +6212,9 @@ Spark Fun Electronics SKU : COM-00107</description>
 <label x="101.6" y="-7.62" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="10"/>
-<wire x1="129.54" y1="45.72" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
-<label x="129.54" y="25.4" size="1.778" layer="95" rot="R90"/>
+<pinref part="J5" gate="G$1" pin="9"/>
+<wire x1="127" y1="45.72" x2="127" y2="22.86" width="0.1524" layer="91"/>
+<label x="127" y="25.4" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -6234,9 +6234,9 @@ Spark Fun Electronics SKU : COM-00107</description>
 <label x="101.6" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J5" gate="G$1" pin="8"/>
-<wire x1="124.46" y1="45.72" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
-<label x="124.46" y="25.4" size="1.778" layer="95" rot="R90"/>
+<pinref part="J5" gate="G$1" pin="10"/>
+<wire x1="129.54" y1="45.72" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
+<label x="129.54" y="25.4" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6318,30 +6318,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="114.3" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="J5" gate="G$1" pin="7"/>
-<wire x1="121.92" y1="45.72" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
-<wire x1="121.92" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$10" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="PD1(TXD)"/>
-<pinref part="J5" gate="G$1" pin="6"/>
-<wire x1="99.06" y1="25.4" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="25.4" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$11" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="PD2(INT0)"/>
-<pinref part="J5" gate="G$1" pin="5"/>
-<wire x1="99.06" y1="22.86" x2="116.84" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="22.86" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="VIN" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="PWR"/>
@@ -6379,6 +6355,30 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="J5" gate="G$1" pin="2"/>
 <wire x1="106.68" y1="40.64" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="40.64" x2="109.22" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PD2(INT0)"/>
+<pinref part="J5" gate="G$1" pin="7"/>
+<wire x1="99.06" y1="22.86" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="22.86" x2="121.92" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="J5" gate="G$1" pin="6"/>
+<wire x1="119.38" y1="45.72" x2="119.38" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="U1" gate="U$1" pin="PD1(TXD)"/>
+<wire x1="119.38" y1="25.4" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
+<pinref part="J5" gate="G$1" pin="5"/>
+<wire x1="99.06" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="27.94" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
