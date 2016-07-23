@@ -6180,11 +6180,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <label x="88.9" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="MISO"/>
-<wire x1="165.1" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
-<label x="149.86" y="48.26" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="U$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="99.06" y1="-2.54" x2="119.38" y2="-2.54" width="0.1524" layer="91"/>
 <label x="101.6" y="-2.54" size="1.778" layer="95"/>
@@ -6193,6 +6188,11 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="J5" gate="G$1" pin="8"/>
 <wire x1="124.46" y1="45.72" x2="124.46" y2="22.86" width="0.1524" layer="91"/>
 <label x="124.46" y="25.4" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="MOSI"/>
+<wire x1="165.1" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
+<label x="149.86" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -6224,11 +6224,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <label x="50.8" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="MOSI"/>
-<wire x1="165.1" y1="45.72" x2="147.32" y2="45.72" width="0.1524" layer="91"/>
-<label x="149.86" y="45.72" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U1" gate="U$1" pin="PB4(MISO)"/>
 <wire x1="99.06" y1="-5.08" x2="119.38" y2="-5.08" width="0.1524" layer="91"/>
 <label x="101.6" y="-5.08" size="1.778" layer="95"/>
@@ -6237,6 +6232,11 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="J5" gate="G$1" pin="10"/>
 <wire x1="129.54" y1="45.72" x2="129.54" y2="22.86" width="0.1524" layer="91"/>
 <label x="129.54" y="25.4" size="1.778" layer="95" rot="R90"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="MISO"/>
+<wire x1="165.1" y1="48.26" x2="147.32" y2="48.26" width="0.1524" layer="91"/>
+<label x="149.86" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -6384,6 +6384,16 @@ Spark Fun Electronics SKU : COM-00107</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,165.1,33.02,U2,RESET,,,,"/>
+<approved hash="104,1,165.1,55.88,U2,3.3V,VCC,,,"/>
+<approved hash="113,1,206.417,4.88527,J1,,,,,"/>
+<approved hash="113,1,211.497,32.8253,J4,,,,,"/>
+<approved hash="113,1,119.829,48.9373,J5,,,,,"/>
+<approved hash="113,1,164.613,7.62,D1,,,,,"/>
+<approved hash="113,1,86.36,102.083,U3,,,,,"/>
+<approved hash="113,1,86.36,113.813,D2,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
