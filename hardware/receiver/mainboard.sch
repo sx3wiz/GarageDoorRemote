@@ -480,223 +480,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="SparkFun-Electromechanical">
-<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
-In this library you'll find anything that moves- switches, relays, buttons, potentiometers. Also, anything that goes on a board but isn't electrical in nature- screws, standoffs, etc.&lt;br&gt;&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="RELAY-G5Q">
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-10.16" y1="5.08" x2="10.16" y2="5.08" width="0.2032" layer="21"/>
-<pad name="4" x="-6.35" y="-3.81" drill="1.3"/>
-<pad name="5" x="8.89" y="-3.81" drill="1.3"/>
-<pad name="1" x="8.89" y="3.81" drill="1.3"/>
-<pad name="3" x="-8.89" y="3.81" drill="1.3"/>
-<pad name="2" x="-1.27" y="3.81" drill="1.3"/>
-<text x="-1.27" y="0" size="0.6096" layer="25">&gt;Name</text>
-<text x="-1.27" y="-1.27" size="0.6096" layer="27">&gt;Value</text>
-</package>
-<package name="RELAY-T9A">
-<description>Big relay. 220V/30A. SparkFun SKU: COM-00101</description>
-<wire x1="-12.7" y1="16.256" x2="12.7" y2="16.256" width="0.2032" layer="21"/>
-<wire x1="13.716" y1="15.24" x2="13.716" y2="-15.24" width="0.2032" layer="21"/>
-<wire x1="12.7" y1="-16.256" x2="-12.7" y2="-16.256" width="0.2032" layer="21"/>
-<wire x1="-13.716" y1="-15.24" x2="-13.716" y2="15.24" width="0.2032" layer="21"/>
-<wire x1="-13.716" y1="15.24" x2="-12.7" y2="16.256" width="0.2032" layer="21" curve="-83.267079"/>
-<wire x1="13.716" y1="15.24" x2="12.7" y2="16.256" width="0.2032" layer="21" curve="106.260205"/>
-<wire x1="-13.716" y1="-15.24" x2="-12.7" y2="-16.256" width="0.2032" layer="21" curve="106.260205"/>
-<wire x1="12.7" y1="-16.256" x2="13.716" y2="-15.24" width="0.2032" layer="21" curve="106.260205"/>
-<pad name="NC" x="9.906" y="12.7" drill="2.0574"/>
-<pad name="NO" x="9.906" y="5.08" drill="2.0574"/>
-<pad name="MAIN" x="-7.874" y="2.54" drill="2.0574"/>
-<pad name="COIL1" x="-4.064" y="-10.16" drill="1.0922"/>
-<pad name="COIL2" x="6.096" y="-10.16" drill="1.0922"/>
-<text x="-11.43" y="13.97" size="0.6096" layer="25">&gt;Name</text>
-<text x="-11.43" y="12.7" size="0.6096" layer="27">&gt;Value</text>
-</package>
-<package name="RELAY-T9A-2">
-<wire x1="-12.7" y1="16.15" x2="12.7" y2="16.15" width="0.2032" layer="21"/>
-<wire x1="13.7" y1="15.24" x2="13.7" y2="4.1" width="0.2032" layer="21"/>
-<wire x1="-13.7" y1="-0.7" x2="-13.7" y2="15.24" width="0.2032" layer="21"/>
-<wire x1="-13.7" y1="15.24" x2="-12.7" y2="16.15" width="0.2032" layer="21" curve="-83.277195"/>
-<wire x1="13.7" y1="15.24" x2="12.7" y2="16.15" width="0.2032" layer="21" curve="106.274874"/>
-<wire x1="-13" y1="-1.45" x2="-12.4" y2="-1.45" width="0.2032" layer="21"/>
-<wire x1="8.9" y1="3.35" x2="13" y2="3.35" width="0.2032" layer="21"/>
-<wire x1="-11.7" y1="-2.2" x2="-11.7" y2="-15.5" width="0.2032" layer="21"/>
-<wire x1="8.2" y1="2.6" x2="8.2" y2="-15.4" width="0.2032" layer="21"/>
-<wire x1="-11" y1="-16.15" x2="7.5" y2="-16.15" width="0.2032" layer="21"/>
-<wire x1="-13" y1="-1.45" x2="-13.7" y2="-0.7" width="0.2032" layer="21" curve="-91.407384"/>
-<wire x1="-12.4" y1="-1.45" x2="-11.7" y2="-2.2" width="0.2032" layer="21" curve="-83.263707"/>
-<wire x1="-11" y1="-16.15" x2="-11.7" y2="-15.5" width="0.2032" layer="21" curve="-73.735867"/>
-<wire x1="8.2" y1="-15.4" x2="7.5" y2="-16.15" width="0.2032" layer="21" curve="-83.263707"/>
-<wire x1="8.2" y1="2.6" x2="8.9" y2="3.35" width="0.2032" layer="21" curve="-83.263707"/>
-<wire x1="13.7" y1="4.1" x2="13" y2="3.35" width="0.2032" layer="21" curve="-83.263707"/>
-<pad name="NC" x="7.35" y="12.6" drill="2"/>
-<pad name="NO" x="7.35" y="4.97" drill="2"/>
-<pad name="MAIN" x="-10.41" y="2.43" drill="2.0574"/>
-<pad name="COIL1" x="-6.61" y="-10.27" drill="1.1"/>
-<pad name="COIL2" x="3.55" y="-10.27" drill="1.1"/>
-<text x="-11.43" y="13.97" size="0.6096" layer="25">&gt;Name</text>
-<text x="-11.43" y="12.7" size="0.6096" layer="27">&gt;Value</text>
-</package>
-<package name="RELAY-JZC">
-<wire x1="5" y1="-10.5" x2="-5" y2="-10.5" width="0.2032" layer="21"/>
-<wire x1="-5" y1="-10.5" x2="-5" y2="8" width="0.2032" layer="21"/>
-<wire x1="-5" y1="8" x2="5" y2="8" width="0.2032" layer="21"/>
-<wire x1="5" y1="8" x2="5" y2="-10.5" width="0.2032" layer="21"/>
-<pad name="4" x="3.81" y="3.81" drill="1.3" diameter="2.286" rot="R270"/>
-<pad name="5" x="-3.81" y="-8.89" drill="1.3" diameter="2.286" rot="R270"/>
-<pad name="1" x="3.81" y="-8.89" drill="1.3" diameter="2.286" rot="R270"/>
-<pad name="3" x="-3.81" y="6.35" drill="1.3" diameter="2.286" rot="R270"/>
-<pad name="2" x="-3.81" y="1.651" drill="1.3" diameter="2.286" rot="R270"/>
-<text x="0" y="1.27" size="0.6096" layer="25" rot="R270">&gt;Name</text>
-<text x="-1.27" y="1.27" size="0.6096" layer="27" rot="R270">&gt;Value</text>
-</package>
-<package name="RELAY-T90">
-<wire x1="-26.41" y1="-20.665" x2="-26.41" y2="4.735" width="0.2032" layer="21"/>
-<wire x1="-25.5" y1="5.735" x2="-13.725" y2="5.735" width="0.2032" layer="21"/>
-<wire x1="-9.56" y1="-21.665" x2="-25.5" y2="-21.665" width="0.2032" layer="21"/>
-<wire x1="-25.5" y1="-21.665" x2="-26.41" y2="-20.665" width="0.2032" layer="21" curve="-83.277195"/>
-<wire x1="-25.5" y1="5.735" x2="-26.41" y2="4.735" width="0.2032" layer="21" curve="100"/>
-<wire x1="-8.81" y1="-20.965" x2="-8.81" y2="-20.365" width="0.2032" layer="21"/>
-<wire x1="-12.975" y1="1.57" x2="-12.975" y2="5.035" width="0.2032" layer="21"/>
-<wire x1="-8.06" y1="-19.665" x2="5.875" y2="-19.665" width="0.2032" layer="21"/>
-<wire x1="-12.225" y1="0.87" x2="5.775" y2="0.87" width="0.2032" layer="21"/>
-<wire x1="6.525" y1="-18.965" x2="6.525" y2="0.17" width="0.2032" layer="21"/>
-<wire x1="-8.81" y1="-20.965" x2="-9.56" y2="-21.665" width="0.2032" layer="21" curve="-91.407384"/>
-<wire x1="-8.81" y1="-20.365" x2="-8.06" y2="-19.665" width="0.2032" layer="21" curve="-83.263707"/>
-<wire x1="6.525" y1="-18.965" x2="5.875" y2="-19.665" width="0.2032" layer="21" curve="-73.735867"/>
-<wire x1="5.775" y1="0.87" x2="6.525" y2="0.17" width="0.2032" layer="21" curve="-83.263707"/>
-<wire x1="-12.225" y1="0.87" x2="-12.975" y2="1.57" width="0.2032" layer="21" curve="-83.263707"/>
-<wire x1="-13.725" y1="5.735" x2="-12.975" y2="5.035" width="0.2032" layer="21" curve="-83.263707"/>
-<pad name="NC" x="-22.86" y="0" drill="2.1" rot="R90"/>
-<pad name="NO" x="-15.24" y="0" drill="2.1" rot="R90"/>
-<pad name="MAIN" x="-12.7" y="-17.78" drill="2.1" rot="R90"/>
-<pad name="COIL1" x="0" y="-13.9" drill="1.1" diameter="1.9558" rot="R90"/>
-<pad name="COIL2" x="0" y="-3.81" drill="1.1" diameter="1.9558" rot="R90"/>
-<text x="-23.495" y="-20.32" size="0.8128" layer="25" font="vector" ratio="15" rot="R90">&gt;Name</text>
-<text x="-22.225" y="-20.32" size="0.8128" layer="27" font="vector" ratio="15" rot="R90">&gt;Value</text>
-</package>
-</packages>
-<symbols>
-<symbol name="RELAY-SPDT">
-<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="1.778" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="171.202589"/>
-<wire x1="-5.08" y1="3.302" x2="-5.08" y2="1.778" width="0.254" layer="94" curve="212.527339"/>
-<wire x1="-5.08" y1="-0.762" x2="-5.08" y2="3.302" width="0.254" layer="94" curve="148.582724"/>
-<wire x1="-5.08" y1="0.762" x2="-5.08" y2="-0.762" width="0.254" layer="94" curve="212.527339"/>
-<wire x1="-5.08" y1="-3.302" x2="-5.08" y2="0.762" width="0.254" layer="94" curve="147.477858"/>
-<wire x1="-5.08" y1="-1.778" x2="-5.08" y2="-3.302" width="0.254" layer="94" curve="212.527339"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-1.778" width="0.254" layer="94" curve="171.202589"/>
-<wire x1="5.08" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
-<wire x1="2.54" y1="0" x2="0.762" y2="1.778" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="0.762" y2="3.302" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="3.302" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="0.762" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="0" y1="-2.54" x2="-0.762" y2="-3.302" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="8.128" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;Value</text>
-<pin name="COIL2" x="-10.16" y="-5.08" visible="off" length="short"/>
-<pin name="MAIN" x="7.62" y="0" visible="off" length="short" rot="R180"/>
-<pin name="NO" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
-<pin name="NC" x="7.62" y="5.08" visible="off" length="short" rot="R180"/>
-<pin name="COIL1" x="-10.16" y="5.08" visible="off" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="RELAY">
-<description>SPDT relay (COM-00101)</description>
-<gates>
-<gate name="K$1" symbol="RELAY-SPDT" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="PTH" package="RELAY-G5Q">
-<connects>
-<connect gate="K$1" pin="COIL1" pad="5"/>
-<connect gate="K$1" pin="COIL2" pad="1"/>
-<connect gate="K$1" pin="MAIN" pad="2"/>
-<connect gate="K$1" pin="NC" pad="4"/>
-<connect gate="K$1" pin="NO" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH2" package="RELAY-T9A">
-<connects>
-<connect gate="K$1" pin="COIL1" pad="COIL1"/>
-<connect gate="K$1" pin="COIL2" pad="COIL2"/>
-<connect gate="K$1" pin="MAIN" pad="MAIN"/>
-<connect gate="K$1" pin="NC" pad="NC"/>
-<connect gate="K$1" pin="NO" pad="NO"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH3" package="RELAY-T9A-2">
-<connects>
-<connect gate="K$1" pin="COIL1" pad="COIL1"/>
-<connect gate="K$1" pin="COIL2" pad="COIL2"/>
-<connect gate="K$1" pin="MAIN" pad="MAIN"/>
-<connect gate="K$1" pin="NC" pad="NC"/>
-<connect gate="K$1" pin="NO" pad="NO"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH4" package="RELAY-JZC">
-<connects>
-<connect gate="K$1" pin="COIL1" pad="5"/>
-<connect gate="K$1" pin="COIL2" pad="1"/>
-<connect gate="K$1" pin="MAIN" pad="4"/>
-<connect gate="K$1" pin="NC" pad="2"/>
-<connect gate="K$1" pin="NO" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="PTH5" package="RELAY-T90">
-<connects>
-<connect gate="K$1" pin="COIL1" pad="COIL1"/>
-<connect gate="K$1" pin="COIL2" pad="COIL2"/>
-<connect gate="K$1" pin="MAIN" pad="MAIN"/>
-<connect gate="K$1" pin="NC" pad="NC"/>
-<connect gate="K$1" pin="NO" pad="NO"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="COMP-10736" constant="no"/>
-<attribute name="VALUE" value="JQX-15F" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-Connectors">
 <description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
 In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
@@ -5930,6 +5713,75 @@ Spark Fun Electronics SKU : COM-00107</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Electromechanical">
+<packages>
+<package name="RELAY-9007">
+<pad name="1" x="-7.62" y="0" drill="0.8" shape="square"/>
+<pad name="2" x="-2.54" y="0" drill="0.8"/>
+<pad name="3" x="2.54" y="0" drill="0.8"/>
+<pad name="4" x="7.62" y="0" drill="0.8"/>
+<wire x1="8.89" y1="2.54" x2="8.89" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-2.54" x2="-8.89" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-2.54" x2="-8.89" y2="2.54" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="2.54" x2="8.89" y2="2.54" width="0.127" layer="21"/>
+<text x="-8.89" y="2.794" size="0.8128" layer="21">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="RELAY-SPST">
+<wire x1="5.08" y1="7.62" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="5.08" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="1.778" x2="-5.08" y2="5.08" width="0.254" layer="94" curve="171.202589"/>
+<wire x1="-5.08" y1="3.302" x2="-5.08" y2="1.778" width="0.254" layer="94" curve="212.527339"/>
+<wire x1="-5.08" y1="-0.762" x2="-5.08" y2="3.302" width="0.254" layer="94" curve="148.582724"/>
+<wire x1="-5.08" y1="0.762" x2="-5.08" y2="-0.762" width="0.254" layer="94" curve="212.527339"/>
+<wire x1="-5.08" y1="-3.302" x2="-5.08" y2="0.762" width="0.254" layer="94" curve="147.477858"/>
+<wire x1="-5.08" y1="-1.778" x2="-5.08" y2="-3.302" width="0.254" layer="94" curve="212.527339"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="-1.778" width="0.254" layer="94" curve="171.202589"/>
+<wire x1="5.08" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="2.54" y1="0" x2="0.762" y2="1.778" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0.762" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="-0.762" y2="-3.302" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="5.08" x2="-5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="-5.08" y2="-5.08" width="0.254" layer="94"/>
+<text x="-7.62" y="8.128" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="96">&gt;Value</text>
+<pin name="COIL2" x="-10.16" y="-5.08" visible="off" length="short"/>
+<pin name="MAIN" x="7.62" y="0" visible="off" length="short" rot="R180"/>
+<pin name="NO" x="7.62" y="-5.08" visible="off" length="short" rot="R180"/>
+<pin name="COIL1" x="-10.16" y="5.08" visible="off" length="short"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RELAY-9007">
+<gates>
+<gate name="G$1" symbol="RELAY-SPST" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RELAY-9007">
+<connects>
+<connect gate="G$1" pin="COIL1" pad="2"/>
+<connect gate="G$1" pin="COIL2" pad="3"/>
+<connect gate="G$1" pin="MAIN" pad="1"/>
+<connect gate="G$1" pin="NO" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -5942,7 +5794,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <parts>
 <part name="U1" library="SparkFun-DigitalIC" deviceset="ATMEGA328P_TQFP" device="" value="ATMEGA328P_TQFP"/>
 <part name="U2" library="SparkFun-RF" deviceset="RFM69H" device="CW"/>
-<part name="U$1" library="SparkFun-Electromechanical" deviceset="RELAY" device="PTH"/>
 <part name="J1" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
 <part name="J2" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="1206" value="10u"/>
@@ -5973,6 +5824,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
 <part name="D2" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="BAS16"/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="VIN" device=""/>
+<part name="U4" library="Electromechanical" deviceset="RELAY-9007" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -5981,7 +5833,6 @@ Spark Fun Electronics SKU : COM-00107</description>
 <instances>
 <instance part="U1" gate="U$1" x="76.2" y="20.32"/>
 <instance part="U2" gate="G$1" x="180.34" y="43.18"/>
-<instance part="U$1" gate="K$1" x="180.34" y="7.62"/>
 <instance part="J1" gate="G$1" x="210.82" y="7.62" rot="R180"/>
 <instance part="J2" gate="G$1" x="58.42" y="99.06"/>
 <instance part="C1" gate="G$1" x="96.52" y="99.06"/>
@@ -6012,6 +5863,7 @@ Spark Fun Electronics SKU : COM-00107</description>
 <instance part="SUPPLY8" gate="G$1" x="167.64" y="15.24"/>
 <instance part="D2" gate="G$1" x="86.36" y="114.3" rot="R180"/>
 <instance part="SUPPLY5" gate="G$1" x="101.6" y="38.1"/>
+<instance part="U4" gate="G$1" x="180.34" y="7.62"/>
 </instances>
 <busses>
 </busses>
@@ -6270,19 +6122,12 @@ Spark Fun Electronics SKU : COM-00107</description>
 <wire x1="195.58" y1="35.56" x2="208.28" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="U$1" gate="K$1" pin="MAIN"/>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="187.96" y1="7.62" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="203.2" y1="5.08" x2="195.58" y2="5.08" width="0.1524" layer="91"/>
 <wire x1="195.58" y1="5.08" x2="195.58" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="K$1" pin="NO"/>
+<pinref part="U4" gate="G$1" pin="NO"/>
 <wire x1="195.58" y1="2.54" x2="187.96" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -6290,11 +6135,11 @@ Spark Fun Electronics SKU : COM-00107</description>
 <segment>
 <pinref part="Q1" gate="G$1" pin="D"/>
 <wire x1="167.64" y1="-2.54" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="K$1" pin="COIL2"/>
-<wire x1="167.64" y1="2.54" x2="170.18" y2="2.54" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="165.1" y1="5.08" x2="165.1" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="2.54" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="COIL2"/>
+<wire x1="170.18" y1="2.54" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
 <junction x="167.64" y="2.54"/>
 </segment>
 </net>
@@ -6334,17 +6179,17 @@ Spark Fun Electronics SKU : COM-00107</description>
 <junction x="76.2" y="106.68"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="K$1" pin="COIL1"/>
 <pinref part="D1" gate="G$1" pin="C"/>
 <wire x1="165.1" y1="10.16" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="12.7" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="167.64" y1="12.7" x2="170.18" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="-12.7" x2="149.86" y2="12.7" width="0.1524" layer="91"/>
 <wire x1="149.86" y1="12.7" x2="165.1" y2="12.7" width="0.1524" layer="91"/>
 <junction x="165.1" y="12.7"/>
 <pinref part="SUPPLY8" gate="G$1" pin="VIN"/>
 <wire x1="167.64" y1="15.24" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
+<pinref part="U4" gate="G$1" pin="COIL1"/>
+<wire x1="170.18" y1="12.7" x2="167.64" y2="12.7" width="0.1524" layer="91"/>
 <junction x="167.64" y="12.7"/>
 </segment>
 <segment>
@@ -6379,6 +6224,13 @@ Spark Fun Electronics SKU : COM-00107</description>
 <pinref part="J5" gate="G$1" pin="5"/>
 <wire x1="99.06" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="27.94" x2="116.84" y2="45.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="MAIN"/>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="187.96" y1="7.62" x2="203.2" y2="7.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
